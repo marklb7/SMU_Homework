@@ -7,7 +7,7 @@ function makeMap() {
     // Store our API endpoint as queryUrl
 
     var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
-    var tectonicPlates = "SMU_Homework/17-Mapping-Web/Submission/static/data/tetonic_plates.json"
+    var tectonicPlates = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
         // Perform a GET request to the query URL
     $.ajax({
         type: "GET",
